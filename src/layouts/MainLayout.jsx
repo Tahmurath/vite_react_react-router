@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
 import { MainNav } from "./MainNav";
-import './Main.css'
+// import './Main.css'
 import styled from "styled-components";
 
 

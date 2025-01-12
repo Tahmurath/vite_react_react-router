@@ -1,19 +1,13 @@
-import { NavLink } from "react-router";
-import { MyAppNav } from "../nav";
 import { Outlet } from "react-router";
+import { MainNav } from "./MainNav";
 
 // Layout Components
-const MainLayout = ({ children }) => (
+const MainLayout = () => (
     <div>
-      <h1>the main layout</h1>
-      <MyAppNav/>
-      {/* <nav>
-        <NavLink to="/" end>Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </nav> */}
+      <h3>the main layout</h3>
+      <hr></hr>
+      <MainNav/>
       <Outlet />
-      {/* <main>{children}</main> */}
     </div>
   );
 

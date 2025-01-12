@@ -1,17 +1,12 @@
-import { NavLink } from "react-router";
-import { MyAppNav } from "../nav";
 import { Outlet } from "react-router";
+import { AdminNav } from "./AdminNav";
 
-const AdminLayout = ({ children }) => (
+const AdminLayout = () => (
     <div>
-        <h1>the admin layout</h1>
-        <MyAppNav/>
-        
-      {/* <nav>
-        <NavLink to="/admin/dashboard">Dashboard</NavLink>
-        <NavLink to="/admin/settings">Settings</NavLink>
-      </nav> */}
-      <Outlet />
+        <h3>the admin layout</h3>
+        <hr></hr>
+        <AdminNav/>
+        <Outlet />
     </div>
   );
 

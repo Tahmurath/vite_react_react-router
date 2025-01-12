@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
-function Dashboard() {
+function Index() {
 
   return (
     <>
       <div>
-        <h1>dashboard page</h1>
+        <h1>Index page</h1>
       </div>
     </>
   )
 }
 
-export default Dashboard
+export default Index

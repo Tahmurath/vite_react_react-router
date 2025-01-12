@@ -7,9 +7,7 @@ function About() {
     <>
     
       <div>
-
         <h3>about page</h3>
-        
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
